@@ -2,12 +2,13 @@ body {
     background-color: black;
 }
 
-/* Header CSS */
 
-header {
+.section {
     margin: 40px;
-    width: 100%;
+    width: calc(100% - 80px);
+    max-width: 800px;
     color: white;
+    margin-bottom: 100px;    
 }
 
 .icon {
